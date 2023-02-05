@@ -265,7 +265,7 @@ sudo rm -R ./.data
 
 # Багрепорты
 
-* [После трех неудачных попыток входа пользователь должен быть заблокирован](https://github.com/PavlyukovVladimir/PavlyukovVVQamid45AutotestingSQL1/issues/1)
+* [After three failed login attempts with an incorrect password, the user should not be blocked](https://github.com/PavlyukovVladimir/PavlyukovVVQamid45AutotestingSQL1/issues/1)
 
 # Памятка
 <details><summary>Описание запуска</summary>
