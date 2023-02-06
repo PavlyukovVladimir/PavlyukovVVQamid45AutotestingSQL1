@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9420e257-cf9f-406e-94ca-98f8a98deae7" name="Changes" comment="init">
+    <list default="true" id="9420e257-cf9f-406e-94ca-98f8a98deae7" name="Changes" comment="fix ru.netology.data.Card class">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/AuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/AuthTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,12 +58,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -284,12 +284,68 @@
       <option name="project" value="LOCAL" />
       <updated>1675605329247</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add bug report to issues">
+      <created>1675606419957</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675606419957</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add bug report to issues">
+      <created>1675606572206</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675606572206</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add bug report to issues">
+      <created>1675606588042</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675606588042</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add bug report to issues">
+      <created>1675606728641</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675606728641</updated>
+    </task>
+    <task id="LOCAL-00009" summary="deleted the description of the 2nd task">
+      <created>1675607591256</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675607591256</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix ru.netology.data.Card class">
+      <created>1675636373500</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675636373500</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="add bug report to issues" />
+    <MESSAGE value="deleted the description of the 2nd task" />
+    <MESSAGE value="fix ru.netology.data.Card class" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix ru.netology.data.Card class" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

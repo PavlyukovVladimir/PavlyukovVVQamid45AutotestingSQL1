@@ -36,13 +36,22 @@
     ac.user_id
 from
     auth_codes ac;]]></console>
-      <console name="Cards" type="STANDARD" schema="app" session="Main"><![CDATA[select
+      <console name="Cards" type="STANDARD" schema="app" session="Main"><![CDATA[update cards
+ set balance_in_kopecks = 1000001 WHERE id = '0f3f5c2a-249e-4c3d-8287-09f7a039391d';
+ 
+update cards
+ set balance_in_kopecks = 1000099 WHERE id = '92df3f1c-a033-48e6-8390-206f6b1f56c0';
+
+select
     c.balance_in_kopecks,
     c.id,
     c.number,
     c.user_id
 from
-    cards c;]]></console>
+    cards c;
+    
+SELECT cards.id FROM users, cards
+WHERE users.login = 'vasya' AND users.id = cards.user_id;]]></console>
       <console name="ether" type="STANDARD" schema="app" session="Main" />
       <console name="fresh_auth_code_from_user" type="STANDARD" schema="app" session="Main"><![CDATA[BEGIN
     DROP TABLE IF EXISTS card_transactions;

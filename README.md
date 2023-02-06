@@ -156,26 +156,9 @@ sudo rm -R ./.data
 
 # Багрепорты
 
-* [After three failed login attempts with an incorrect password, the user should not be blocked](https://github.com/PavlyukovVladimir/PavlyukovVVQamid45AutotestingSQL1/issues/1)
+* [После трех неудачных попыток входа в систему с неправильным паролем пользователь не заблокирован](https://github.com/PavlyukovVladimir/PavlyukovVVQamid45AutotestingSQL1/issues/1)
 
 # Памятка
-<details><summary>Описание запуска</summary>
-
-* Запуск построения образа (_должен быть Dockerfile в текущей директории_):
-```sh
-docker image build -t db-api:1.0 .
-``` 
-* Первый запуск контейнера (_должен быть docker-compose.yml в текущей директории_):
-```sh
-docker-compose up --build -d
-```
-* Последующие запуски (_должен быть docker-compose.yml в текущей директории_):
-```sh
-docker-compose up -d
-```
-* Для проверки, что все правильно, в браузере пройти по ссылке: "http://localhost:9999/api/cards" (_равносильно отправке GET запроса по этому url_)
-
-</details>
 
 <details><summary>Команды linux</summary>
 
@@ -186,6 +169,10 @@ nc -z -v -w5 <host> <port>
 * Посмотреть какие процессы занимают порт 9999:
 ```sh
 lsof -i tcp:9999
+```
+* завершить процесс по его PID:
+```sh
+kill -TERM <PID>
 ```
 * Узнать текущего пользователя
 ```sh
